@@ -1,0 +1,16 @@
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\obj\Debug\ColorByProfile.csproj.AssemblyReference.cache
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\obj\Debug\ColorByProfile.csproj.SuggestedBindingRedirects.cache
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\obj\Debug\ColorByProfile.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\ColorByProfile.exe.config
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\ColorByProfile.exe
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\ColorByProfile.pdb
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Tekla.Structures.Datatype.dll
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Tekla.Structures.dll
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Tekla.Structures.Model.dll
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Tekla.Structures.xml
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Tekla.Structures.Datatype.xml
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\bin\Debug\Tekla.Structures.Model.xml
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\obj\Debug\ColorByProfile.csproj.CopyComplete
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\obj\Debug\ColorByProfile.exe
+C:\Users\adria\source\repos\ColorByProfile\ColorByProfile\obj\Debug\ColorByProfile.pdb
