@@ -964,17 +964,14 @@
         <member name="T:Tekla.Structures.TeklaStructuresInternal.AtcUser">
             <summary>ATC user data</summary>
         </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.AtcUser.Email">
+        <member name="F:Tekla.Structures.TeklaStructuresInternal.AtcUser.Email">
             <summary>User's email.</summary>
         </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.AtcUser.DisplayName">
+        <member name="F:Tekla.Structures.TeklaStructuresInternal.AtcUser.DisplayName">
             <summary>User's name to display in UI.</summary>
         </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.AtcUser.AccessToken">
+        <member name="F:Tekla.Structures.TeklaStructuresInternal.AtcUser.AccessToken">
             <summary>User's access token for services.</summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.AtcUser.IdToken">
-            <summary> User's id token. </summary>
         </member>
         <member name="T:Tekla.Structures.TeklaStructuresInternal.Operation">
             <summary>Internal application operations.</summary>
@@ -1029,755 +1026,6 @@
             <returns>
             True if the variable is read successfully and contains no invalid paths; otherwise false.
             </returns>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals">
-            <summary>The MepUnitsDecimals class represents the Mep units and decimals defined in options.</summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.MassFlowUnitEnum">
-            <summary> The Mep mass flow unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.MassFlowUnitEnum.KG_SEC">
-            <summary> Kg per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.MassFlowUnitEnum.LB_SEC">
-            <summary> Lb per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.MassFlowUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum">
-            <summary> The Mep density unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum.KG_M3">
-            <summary> Kg per cubic meter. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum.TON_M3">
-            <summary> Ton per cubic meter. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum.N_M3">
-            <summary> Newton per cubic meter. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum.kN_M3">
-            <summary> kiloNewton per cubic meter. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum.LB_FEET3">
-            <summary> Lb per cubic feet. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VolumeFlowUnitEnum">
-            <summary> The Mep volume flow unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VolumeFlowUnitEnum.M3_SEC">
-            <summary> Cubic meter per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VolumeFlowUnitEnum.FEET3_SEC">
-            <summary> Cubic feet per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VolumeFlowUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.SpecificHeatCapacityUnitEnum">
-            <summary> The Mep specific heat capacity unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.SpecificHeatCapacityUnitEnum.JOULE_K_KG">
-            <summary> Joule per Kelvin per kg. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.SpecificHeatCapacityUnitEnum.BTU_F_LB">
-            <summary> British thermal unit per Fahrenheit per lb. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.SpecificHeatCapacityUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VelocityUnitEnum">
-            <summary> The Mep velocity unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VelocityUnitEnum.M_SEC">
-            <summary> Meters per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VelocityUnitEnum.FEET_SEC">
-            <summary> Feet per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VelocityUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PressureLossUnitEnum">
-            <summary> The Mep pressure loss unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PressureLossUnitEnum.KPA_M">
-            <summary> KiloPascals per meters. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PressureLossUnitEnum.W_FEET">
-            <summary> W per feet. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PressureLossUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.FlowCoefficientUnitEnum">
-            <summary> The Mep pressure loss unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.FlowCoefficientUnitEnum.KV">
-            <summary> SI unit for flow coefficient. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.FlowCoefficientUnitEnum.CV">
-            <summary> Imperial unit for flow coefficient. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.FlowCoefficientUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnitEnum">
-            <summary> The Mep dynamic viscosity unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnitEnum.PSEC">
-            <summary> Pascal-second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnitEnum.KG_MSEC">
-            <summary> Kg per meter-second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnitEnum.LB_FEETSEC">
-            <summary> Lb per feet-second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PowerConsumptionUnitEnum">
-            <summary> The Mep power consumption unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PowerConsumptionUnitEnum.WATT">
-            <summary> Watt. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PowerConsumptionUnitEnum.KILOWATT">
-            <summary> Kilowatt. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PowerConsumptionUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.KinematicViscosityUnitEnum">
-            <summary> The Mep kinematic viscosity unit type. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.KinematicViscosityUnitEnum.M2_SEC">
-            <summary> Square meter per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.KinematicViscosityUnitEnum.FEET2_SEC">
-            <summary> Square feet per second. </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.KinematicViscosityUnitEnum.UNKNOWN">
-            <summary> unknown unit. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.MassFlowUnit">
-            <summary> The Mep mass flow unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnit">
-            <summary> The Mep density unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.SpecificHeatCapacityUnit">
-            <summary> The Mep specific heat capacity unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VelocityUnit">
-            <summary> The Mep velocity unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VolumeFlowUnit">
-            <summary> The Mep velocity unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PressureLossUnit">
-            <summary> The Mep pressure loss unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.FlowCoefficientUnit">
-            <summary> The Mep pressure loss unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnit">
-            <summary> The Mep dynamic viscosity unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PowerConsumptionUnit">
-            <summary> The Mep power consumption unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.KinematicViscosityUnit">
-            <summary> The Mep kinematic viscosity unit type. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.MassFlowUnitDecimals">
-            <summary> The Mep mass flow unit decimals. </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DensityUnitDecimals">
-            <summary> The Mep density unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.SpecificHeatCapacityUnitDecimals">
-            <summary> The Mep specific heat capacity unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VelocityUnitDecimals">
-            <summary> The Mep velocity unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.VolumeFlowUnitDecimals">
-            <summary> The Mep velocity unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PressureLossUnitDecimals">
-            <summary> The Mep pressure loss unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.FlowCoefficientUnitDecimals">
-            <summary> The Mep pressure loss unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.DynamicViscosityUnitDecimals">
-            <summary> The Mep dynamic viscosity unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.PowerConsumptionUnitDecimals">
-            <summary> The Mep power consumption unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.KinematicViscosityUnitDecimals">
-            <summary> The Mep kinematic viscosity unit decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.GlycolPercentageDecimals">
-            <summary> The Mep glycol percentage decimals (1-6). </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals.ZetaDecimals">
-            <summary> The Mep zeta decimals (1-6). </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.GetUnitsDecimalSettings(Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals@)">
-            <summary>
-            Gets unit settings.
-            </summary>
-            <param name="unitsDecimals">Units and decimals for object.</param>
-            <returns>
-              <c>true</c> if select switch is on; otherwise, <c>false</c>.
-            </returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.GetOptionInt(System.String)">
-            <summary>
-            Gets the integer advanced option value.
-            </summary>
-            <param name="optionName">Name of the option.</param>
-            <returns>The integer advanced option value.</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.GetMepUnitsDecimalSettings(Tekla.Structures.TeklaStructuresInternal.TeklaStructuresSettingsHelper.MepUnitsDecimals@)">
-            <summary>
-            Gets Mep unit settings.
-            </summary>
-            <param name="unitsDecimals">Units and decimals for object.</param>
-            <returns>
-              <c>true</c> if select switch is on; otherwise, <c>false</c>.
-            </returns>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset">
-            <summary>
-            Class used for the Materia asset information.
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset.Uri">
-            <summary>
-            The asset URI.
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset.Name">
-            <summary>
-            The asset name.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphEventHandler.OnGraphComputeStarted(System.String)">
-            <summary>
-            Handles the compute.graph.start notification
-            </summary>
-            <param name="graphGuid">The graph GUID</param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphEventHandler.OnGraphComputed(System.String)">
-            <summary>
-            Handles the compute.graph.end notification
-            </summary>
-            <param name="graphGuid"></param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphEventHandler.ComputationsFinished">
-            <summary>
-            Checks if the computations are finished
-            </summary>
-            <returns>True if the graph computations are finished, false if the computations are still in progress</returns>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ComputedCallbackHandler">
-            <summary>
-            GraphComputedDelegate class used for handling the callback on 'graph.compute.end' notification. 
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ComputedCallbackHandler.#ctor">
-            <summary>
-            The callback constructor.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ComputedCallbackHandler.Dispose">
-            <inheritdoc/>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ComputedCallbackHandler.Dispose(System.Boolean)">
-            <summary>
-            Dispose resources
-            </summary>
-            <param name="disposing"></param>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ConnectionChangedEventArgs">
-            <summary>
-            Connection changed event args
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ConnectionChangedEventArgs.Connected">
-            <summary>
-            Connected flag
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ConnectionChangedEventArgs.Disconnected">
-            <summary>
-            Disconnected flag
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.ConnectionChangedEventArgs.Busy">
-            <summary>
-            Busy flag
-            </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphComputeEventArgs">
-            <summary>
-            The event data for the graph compute events 
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphComputeEventArgs.GraphGuid">
-            <summary>
-            The guid of the graph
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphComputeEventArgs.#ctor(System.String)">
-            <summary>
-            Initializes an instance of <see cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphComputeEventArgs"/>
-            </summary>
-            <param name="graphGuid"></param>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter">
-            <summary>
-            Class used for handling the graph parameters.
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter.Name">
-            <summary>
-            The parameter name.
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter.Value">
-            <summary>
-            The parameter value.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter.ToString">
-            <summary>
-            Get string representing the name and value pair
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph">
-             <summary>
-             Graph interface
-             </summary>
-             <seealso cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph"/>
-             <example>
-             The following example shows how to use the IGraph functionalities
-             
-             <code>
-             using System;
-             using Tekla.Structures.TeklaStructuresInternal.MateriaClient;
-            
-             public class MateriaGraphExample
-             {
-                 private IGraph graph;
-             
-                public MateriaGraphExample(IGraph graph)
-                {
-                    this.graph = graph;
-                }
-                 
-                // Gets and sets the graph parameters
-                public void GetAndSetGraphParameters()
-                {
-                    var graphParameters = graph.GetParameterList();
-                    graphParameters[0] = new GraphParameter() { Name = "PropName", Value = "NewValue" };
-                    graph.SetParameterList(graphParameters);
-                }
-                
-                // Gets the TrimBIM geometry to the specified filepath
-                public async void GetTrimBimToFile(string filePath)
-                {
-                     await graph.GetTrimBimToFile(filePath);
-                }
-                
-             }
-             </code>
-             </example>
-        </member>
-        <member name="E:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph.GraphComputed">
-            <summary>
-            Event for notifying about graph computations finished
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph.Asset">
-            <summary>
-            Gets asset for which this graph was loaded
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph.GetParameterList">
-            <summary>
-            Gets the parameters for the graph.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph.SetParameterList(System.Collections.Generic.List{Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter})">
-            <summary>
-            Set the parameter list to the graph.
-            </summary>
-            <param name="graphParameters">The list of parameters</param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph.GetTrimBimToFile(System.String)">
-            <summary>
-            Retrieves the geometry as TrimBIM and writes it to the specified file.
-            </summary>
-            <param name="path">The path where the TrimBIM is written.</param>
-            <returns>True if the TrimBIM is written to the file, false otherwise.</returns>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter">
-             <summary>
-             Interface to be implemented by the adapter class used for Materia-TS integration.
-             Note: Dispose method should be called on app shutdown to disconnect and clean up the states
-             </summary>
-             <seealso cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter"/>
-             <example>
-             The following example shows how to use the IMateriaClientAdapter functionalities
-             
-             <code>
-             using System;
-             using Tekla.Structures.TeklaStructuresInternal.MateriaClient;
-            
-             public class MateriaClientAdapterExample
-             {
-                // Checks if the connection is active and if not, connects to Materia sever
-                public async void ConnectToMateria()
-                {
-                    var materiaClientAdapter = MateriaClientAdapter.Instance;
-                    if (!materiaClientAdapter.IsConnectionActive())
-                    {
-                        // set up the event to be called once the connection changed notification gets called
-                        materiaClientAdapter.ConnectionChanged += this.MateriaClientAdapter_ConnectionChanged;
-                        await materiaClientAdapter.Connect();
-                    }
-                }
-            
-                private void MateriaClientAdapter_ConnectionChanged(object sender, ConnectionChangedEventArgs e)
-                {
-                    if (e.Connected and !e.Busy)
-                    {
-                        // the connection is successful
-                    }
-                }
-                
-                // Loads the graph using the default values for the parameters
-                public async void LoadValveGraph()
-                {
-                    var asset = new Asset { Uri = "whp:c9021c17-e077-4315-a683-9a1c3bc5b6b5" }; /* Tekla MEP - Globe Valve */
-                    var graph = await materiaClientAdapter.LoadGraph(asset);
-            
-                    if (graph == null)
-                    {
-                        return;
-                    }
-                }
-                
-                // Loads the graph using the specified values for the parameters
-                public async void LoadValveGraphWithKnownParameters()
-                {
-                    var asset = new Asset { Uri = "whp:c9021c17-e077-4315-a683-9a1c3bc5b6b5" }; /* Tekla MEP - Globe Valve */
-                    // List of parameters (key-value)  <seealso cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter"/>
-                    var parameters = GetParameters();
-                    
-                    var graph = await materiaClientAdapter.LoadGraph(asset, parameters);
-            
-                    if (graph == null)
-                    {
-                        return;
-                    }
-                }
-                
-                // Retrieves the list of the assets using the specified string
-                public async void SearchAsset()
-                {
-                    var AssetList = await materiaClientAdapter.SearchAssets("Valve");
-                }
-             }
-             </code>
-             </example>
-        </member>
-        <member name="E:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.ConnectionChanged">
-            <summary>
-            Event for notifying about connection changes
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.IsConnectionActive">
-            <summary>
-            Returns the value whether connection to Materia server is active or not.
-            </summary>
-            <returns>true if the connection is active, false otherwise</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.Connect">
-            <summary>
-            Tries to connect to the Materia server. 
-            Note: this method must be called from the UI thread
-            </summary>
-            <returns>true if the connection is successful, false otherwise</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.Disconnect">
-            <summary>
-            Disconnect from Materia server
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.LoadGraph(Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset)">
-            <summary>
-            Loads the graph corresponding to the specified uri and retrieves it's GUID
-            </summary>
-            <param name="asset"></param>
-            <returns>An <see cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IGraph"/> instance representing the loaded graph, or null if the graph loading didn't succeed.</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.LoadGraph(Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset,System.Collections.Generic.List{Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter})">
-            <summary>
-            Loads the graph corresponding to the specified uri providing the explicit parameter values and retrieves it's GUID
-            </summary>
-            <param name="asset"></param>
-            <param name="graphParameters">The list of parameters</param>
-            <returns>The GUID of the loaded graph as a string, or empty string if the graph loading didn't succeed.</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter.SearchAssets(System.String)">
-            <summary>
-            Searches for materia assets by name and retrieves a list of asset names and guids.
-            </summary>
-            <param name="StringSearch">The string used to search in materia assets names.</param>
-            <returns></returns>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter">
-            <summary>
-            Adapter class used for Materia-TS integration.
-            </summary>
-        </member>
-        <member name="E:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.ConnectionChanged">
-            <inheritdoc/>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.ConnectionEnum">
-            <summary>
-            Connection status enum
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.Instance">
-            <summary>
-            Get the <see cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.IMateriaClientAdapter"/> instance
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.Dispose">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.Dispose(System.Boolean)">
-            <summary>
-            Dispose resources
-            </summary>
-            <param name="disposing"></param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.Finalize">
-            <summary>
-            Finalizer
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.IsConnectionActive">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.Connect">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.Disconnect">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.LoadGraph(Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset)">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.LoadGraph(Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset,System.Collections.Generic.List{Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter})">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaClientAdapter.SearchAssets(System.String)">
-            <inheritdoc />
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph">
-            <summary>
-            The class implementation for IGraph.
-            </summary>
-        </member>
-        <member name="P:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.Asset">
-            <inheritdoc/>
-        </member>
-        <member name="E:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.GraphComputed">
-            <inheritdoc/>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.Dispose">
-            <summary>
-            Dispose resources
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.Dispose(System.Boolean)">
-            <summary>
-            Clean up
-            </summary>
-            <param name="disposing"></param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.CreateGraph(Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset,Tekla.Structures.TeklaStructuresInternal.MateriaClient.ComputedCallbackHandler)">
-            <summary>
-            Creates the graph instance.
-            </summary>
-            <param name="asset">The asset</param>
-            <param name="graphComputedCallbackHandler">The graph computed callback handler</param>
-            <returns></returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.CreateGraph(Tekla.Structures.TeklaStructuresInternal.MateriaClient.Asset,System.Collections.Generic.List{Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter},Tekla.Structures.TeklaStructuresInternal.MateriaClient.ComputedCallbackHandler)">
-            <summary>
-            Creates the graph instance with the graph parameters.
-            </summary>
-            <param name="asset">The asset</param>
-            <param name="graphParameters">The graph parameters</param>
-            <param name="graphComputedCallbackHandler">The graph computed callback handler</param>
-            <returns></returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.GetParameterList">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.SetParameterList(System.Collections.Generic.List{Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter})">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.GetTrimBimToFile(System.String)">
-            <inheritdoc />
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.MateriaGraph.ToString">
-            <inheritdoc/>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI">
-            <summary>
-            Contains all imported functions from native side
-            </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GraphComputeStartDelegate">
-            <summary>
-            Event delegate for notifying about graph computation started
-            </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GraphComputedDelegate">
-            <summary>
-            Event delegate for notifying about graph computation finished
-            </summary>
-        </member>
-        <member name="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.ConnectionChangedDelegate">
-            <summary>
-            Event delegate for notifying about connection changes
-            </summary>
-            <param name="isConnected"></param>
-            <param name="isDisconnected"></param>
-            <param name="isBusy"></param>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.EngineConnectionChanged">
-            <summary>
-            Get or set the <see cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.ConnectionChangedDelegate"/> to be called on connection changes
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GraphComputed">
-            <summary>
-            Gets or sets the <see cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GraphComputedDelegate"/> to be called on graph compute end event
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GraphComputeStarted">
-            <summary>
-            Gets or sets the <see cref="T:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GraphComputeStartDelegate"/> to be called on graph compute start event
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.RegisterCallbacks">
-            <summary>
-            Registers the callbacks.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.UnregisterCallbacks">
-            <summary>
-            Unregisters the callbacks.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.Connect(System.String,System.String)">
-            <summary>
-            Imported native method used to connect to the Materia server.
-            </summary>
-            <param name="TIDToken">The Trimble ID token</param>
-            <param name="TAccessToken">The Trimble access token</param>
-            <returns></returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.IsConnected">
-            <summary>
-            Imported native method used to check if the connection to the Materia server is active.
-            </summary>
-            <returns>true if the connection is active, false otherwise</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.Disconnect">
-            <summary>
-            Imported native method used to disconnect from Materia server.
-            </summary>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.LoadGraph(System.String)">
-            <summary>
-            Imported native method used to load the Materia graph.
-            </summary>
-            <param name="Uri">The Materia graph Uri</param>
-            <returns></returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.LoadGraphWithParameters(System.String,Tekla.Structures.TeklaStructuresInternal.MateriaClient.GraphParameter[],System.Int32)">
-            <summary>
-            Imported native method used to load the Materia graph using the specified parameters.
-            </summary>
-            <param name="Uri">The Materia graph Uri</param>
-            <param name="Parameters">The graph parameters</param>
-            <param name="Size">The size of the container containing the parameters</param>
-            <returns></returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GetParameters(System.String,System.Int32@,System.IntPtr@)">
-            <summary>
-            Imported native method used to get the Materia graph parameters.
-            </summary>
-            <param name="GraphGuid">The Materia graph GUID</param>
-            <param name="Size">The size of the container containing the parameters</param>
-            <param name="Parameters">The graph parameters</param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.SetParameter(System.String,System.String,System.String)">
-            <summary>
-            Imported native method used to set a Materia graph parameter.
-            </summary>
-            <param name="GraphGuid">The Materia graph GUID</param>
-            <param name="ParameterName">The parameter name</param>
-            <param name="ParameterValue">The parameter value</param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GetAssetList(System.String,System.Int32@,System.IntPtr@)">
-            <summary>
-            Imported native method used to search for an asset using the string provided as parameter
-            </summary>
-            <param name="StringSearch">The string used to search</param>
-            <param name="Size">The size of the retrieved results array</param>
-            <param name="Assets">The array containing the search result</param>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.GetTrimBimGeometry(System.String)">
-            <summary>
-            Gets the geometry as TrimBIM string
-            </summary>
-            <param name="graphGUID">The graph GUID</param>
-            <returns>The TrimBIM geometry as a string</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.MarshalUnmanagedArrayOfStructs``1(System.IntPtr,System.Int32)">
-            <summary>
-            Translates a native array of structs to a list of structs
-            </summary>
-            <typeparam name="T">The struct type</typeparam>
-            <param name="unmanagedArray">The native array</param>
-            <param name="length">The array size</param>
-            <returns></returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.MateriaClient.NativeAPI.ConvertCoMemString(System.IntPtr)">
-            <summary>
-            Converts a native string(char pointer) to managed string without memory leaks.
-            </summary>
-            <param name="CharPointer">The native chair pointer</param>
-            <returns></returns>
         </member>
         <member name="T:Tekla.Structures.TeklaStructuresInternal.AreWeUnitTesting">
             <summary>
@@ -1934,14 +1182,6 @@
             <exclude/>
             <param name="data">The Data.</param>
             <returns>True if file was found.</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.CDelegateSynchronized.dotExportGetFabricationDrawingLibraries(System.IntPtr@)">
-            <exclude/>
-            <param name="pLibraries">Libraries.</param>
-            <returns>True if get was successful, false otherwise.</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInternal.CDelegateSynchronized.dotExportGetFabDrawingsInfoByLibraryGuid(System.String,System.IntPtr@)">
-            <exclude/>
         </member>
         <member name="T:Tekla.Structures.TeklaStructuresInternal.CDelegateWrapper">
             <exclude/>
@@ -2307,15 +1547,6 @@
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.Default">
             <exclude/>
         </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.TestFeatures_GetState">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.TestFeatures_SetState">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.TestFeatures_EnableCustomLineWidth">
-            <exclude/>
-        </member>
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.MarksLearning_ExportData">
             <exclude/>
         </member>
@@ -2400,9 +1631,6 @@
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.IsometricDimension_DimensionByThreePoints">
             <exclude/>
         </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.CloneEvaluation_ListDrawings">
-            <exclude/>
-        </member>
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.CloneEvaluation_ListDrawingsWithAssembly">
             <exclude/>
         </member>
@@ -2415,7 +1643,7 @@
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.CloneEvaluation_DisplayIdMapperScore">
             <exclude/>
         </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.CloneEvaluation_ShowAdvOptionsDiffs">
+        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.CloneEvaluation_ChangeMatcher">
             <exclude/>
         </member>
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.Dissect_GetViewWorld">
@@ -2442,6 +1670,9 @@
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.AssemblySimilarity_CloneDrawing">
             <exclude/>
         </member>
+        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.ChangeFabricationDrawing_Threshold">
+            <exclude/>
+        </member>
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.CreateFabricationDrawing">
             <exclude/>
         </member>
@@ -2461,63 +1692,6 @@
             <exclude/>
         </member>
         <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.TrackingModelProperties_ReportModelQuantities">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.IdMapperEvaluation_ExportSelectedPairOfAssemblies">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.IdMapperEvaluation_ExportAssemblies">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.IdMapperEvaluation_ExportAllAssemblies">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_CreateLibraries">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_RemoveFromLibrary">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_WriteDefaultNormalizationWeights">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_DumpNearestLibraryToSelected">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.ExportDrawingToSvg">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.ExportSelectedDrawingsToSvg">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_CreateLinkedModelLibraries">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_MergeLinkedModelLibraries">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_RemoveDrawing">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_RemoveLibrary">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_MoveToNewLibrary">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_RemoveLinkedModel">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_DumpPrefixes">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.SmartCompletion_GenerateAssemblyTrimBim">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.FabDrawing_ChangeLibraryTitle">
-            <exclude/>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresInternal.dotTestingFeaturesCommandEnum_e.SedProto_DumpUdas">
             <exclude/>
         </member>
         <member name="T:Tekla.Structures.TeklaStructuresInternal.TestingFeaturesHandler">
@@ -5923,12 +5097,6 @@
             <param name="MinPoint">The minimum point to be used.</param>
             <param name="MaxPoint">The maximum point to be used.</param>
         </member>
-        <member name="M:Tekla.Structures.Geometry3d.AABB.#ctor(System.Collections.Generic.IEnumerable{Tekla.Structures.Geometry3d.Point})">
-            <summary>
-            Constructs AABB from given point list.
-            </summary>
-            <param name="Points"></param>
-        </member>
         <member name="M:Tekla.Structures.Geometry3d.AABB.#ctor(Tekla.Structures.Geometry3d.AABB)">
             <summary>
             Instantiates a new axis-aligned 3d bounding box which is a copy
@@ -5955,12 +5123,6 @@
             Returns the geometric center point of the current axis-aligned 3d bounding box.
             </summary>
             <returns>The geometric center point of the current axis-aligned 3d bounding box.</returns>
-        </member>
-        <member name="M:Tekla.Structures.Geometry3d.AABB.GetCornerPoints">
-            <summary>
-            Returns all corner points of the current axis-aligned 3d bounding box.
-            </summary>
-            <returns>All corner points of the current axis-aligned 3d bounding box.</returns>
         </member>
         <member name="M:Tekla.Structures.Geometry3d.AABB.Collide(Tekla.Structures.Geometry3d.AABB)">
             <summary>
@@ -7064,13 +6226,6 @@
             <param name="p">The point to be transformed.</param>
             <returns>The new transformed point.</returns>
         </member>
-        <member name="M:Tekla.Structures.Geometry3d.Matrix.Transform(System.Collections.Generic.IEnumerable{Tekla.Structures.Geometry3d.Point})">
-            <summary>
-            Transforms the given points using the current matrix.
-            </summary>
-            <param name="Points">The points to be transformed.</param>
-            <returns>The new transformed points.</returns>
-        </member>
         <member name="M:Tekla.Structures.Geometry3d.Matrix.op_Multiply(Tekla.Structures.Geometry3d.Matrix,Tekla.Structures.Geometry3d.Point)">
             <summary>
             Transforms the given point using the given matrix.
@@ -7078,14 +6233,6 @@
             <param name="A">The transformation matrix.</param>
             <param name="p">The point to be transformed.</param>
             <returns>The new transformed point.</returns>
-        </member>
-        <member name="M:Tekla.Structures.Geometry3d.Matrix.op_Multiply(Tekla.Structures.Geometry3d.Matrix,System.Collections.Generic.IEnumerable{Tekla.Structures.Geometry3d.Point})">
-            <summary>
-            Transforms the given points using the given matrix.
-            </summary>
-            <param name="A">The transformation matrix.</param>
-            <param name="Points">The points to be transformed.</param>
-            <returns>The new transformed points.</returns>
         </member>
         <member name="M:Tekla.Structures.Geometry3d.Matrix.ToString">
             <summary>
@@ -7172,13 +6319,13 @@
                         Point LocalEndPoint = TransformationMatrix.Transform(Beam.EndPoint);
             
                         //Display results
-                        DrawCoordinateSystem(Beam.GetCoordinateSystem());
+                        DrawCoordinateSytem(Beam.GetCoordinateSystem());
                         GraphicsDrawer.DrawText(Beam.StartPoint, FormatPointCoordinates(LocalStartPoint), TextColor);
                         GraphicsDrawer.DrawText(Beam.EndPoint, FormatPointCoordinates(LocalEndPoint), TextColor);
                     }
              
                     //Draws the coordinate system in which the values are shown
-                    private static void DrawCoordinateSystem(CoordinateSystem CoordinateSystem)
+                    private static void DrawCoordinateSytem(CoordinateSystem CoordinateSystem)
                     {
                         DrawVector(CoordinateSystem.Origin, CoordinateSystem.AxisX, "X");
                         DrawVector(CoordinateSystem.Origin, CoordinateSystem.AxisY, "Y");
@@ -7295,13 +6442,13 @@
                         Point CurrentEndPoint = TransformationMatrix.Transform(LocalEndPoint);
             
                         //Display results
-                        DrawCoordinateSystem(new CoordinateSystem());
+                        DrawCoordinateSytem(new CoordinateSystem());
                         GraphicsDrawer.DrawText(CurrentStartPoint, FormatPointCoordinates(CurrentStartPoint), TextColor);
                         GraphicsDrawer.DrawText(CurrentEndPoint, FormatPointCoordinates(CurrentEndPoint), TextColor);
                     }
              
                     //Draws the coordinate system in which the values are shown
-                    private static void DrawCoordinateSystem(CoordinateSystem CoordinateSystem)
+                    private static void DrawCoordinateSytem(CoordinateSystem CoordinateSystem)
                     {
                         DrawVector(CoordinateSystem.Origin, CoordinateSystem.AxisX, "X");
                         DrawVector(CoordinateSystem.Origin, CoordinateSystem.AxisY, "Y");
@@ -7424,13 +6571,13 @@
                         Point BeamEndPointInCurrent = TransformationToCurrent.Transform(BeamEndPoint);
             
                         //Display results
-                        DrawCoordinateSystem(ReferenceObject.GetCoordinateSystem());
+                        DrawCoordinateSytem(ReferenceObject.GetCoordinateSystem());
                         GraphicsDrawer.DrawText(BeamStartPointInCurrent, FormatPointCoordinates(BeamStartPoint), TextColor);
                         GraphicsDrawer.DrawText(BeamEndPointInCurrent, FormatPointCoordinates(BeamEndPoint), TextColor);
                     }
              
                     //Draws the coordinate system in which the values are shown
-                    private static void DrawCoordinateSystem(CoordinateSystem CoordinateSystem)
+                    private static void DrawCoordinateSytem(CoordinateSystem CoordinateSystem)
                     {
                         DrawVector(CoordinateSystem.Origin, CoordinateSystem.AxisX, "X");
                         DrawVector(CoordinateSystem.Origin, CoordinateSystem.AxisY, "Y");
@@ -9378,9 +8525,6 @@
              <param name="method"></param>
              <returns></returns>
         </member>
-        <member name="M:Tekla.Structures.Internal.FormWrapperFunctionality.Invoke5vvvvv``6(``0,``1,``2,``3,``4,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvvvv{``0,``1,``2,``3,``4,``5})">
-            <exclude/>
-        </member>
         <member name="M:Tekla.Structures.Internal.FormWrapperFunctionality.Invoke9rrrrrrrrr``10(``0@,``1@,``2@,``3@,``4@,``5@,``6@,``7@,``8@,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod9rrrrrrrrr{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9})">
             <exclude/>
         </member>
@@ -9431,7 +8575,7 @@
         <member name="M:Tekla.Structures.Internal.FormWrapperFunctionality.Invoke16vvvvvvvvvvvvvvvv``17(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod16vvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16})">
             <exclude/>
         </member>
-        <member name="M:Tekla.Structures.Internal.FormWrapperFunctionality.Invoke18vvvvvvvvvvvvvvvvvv``19(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod18vvvvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17,``18})">
+        <member name="M:Tekla.Structures.Internal.FormWrapperFunctionality.Invoke17vvvvvvvvvvvvvvvvv``18(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod17vvvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17})">
             <exclude/>
         </member>
         <member name="M:Tekla.Structures.Internal.FormWrapperFunctionality.Invoke7vvrrrrr``8(``0,``1,``2@,``3@,``4@,``5@,``6@,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod7vvrrrrr{``0,``1,``2,``3,``4,``5,``6,``7})">
@@ -9636,9 +8780,6 @@
         <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke5vvrrv``6(``0,``1,``2@,``3@,``4,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvrrv{``0,``1,``2,``3,``4,``5})">
             <exclude/>
         </member>
-        <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke5vvvvv``6(``0,``1,``2,``3,``4,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvvvv{``0,``1,``2,``3,``4,``5})">
-            <exclude/>
-        </member>
         <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke5vvvrr``6(``0,``1,``2,``3@,``4@,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvvrr{``0,``1,``2,``3,``4,``5})">
              <summary>
             
@@ -9710,7 +8851,7 @@
         <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke16vvvvvvvvvvvvvvvv``17(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod16vvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16})">
             <exclude/>
         </member>
-        <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke18vvvvvvvvvvvvvvvvvv``19(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod18vvvvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17,``18})">
+        <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke17vvvvvvvvvvvvvvvvv``18(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod17vvvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17})">
             <exclude/>
         </member>
         <member name="M:Tekla.Structures.Internal.SynchronizeInvokeFunctionality.Invoke7vvrrrrr``8(``0,``1,``2@,``3@,``4@,``5@,``6@,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod7vvrrrrr{``0,``1,``2,``3,``4,``5,``6,``7})">
@@ -9834,9 +8975,6 @@
         <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvvrr`6">
             <exclude/>
         </member>
-        <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvvvv`6">
-            <exclude/>
-        </member>
         <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvrrv`6">
             <exclude/>
         </member>
@@ -9864,7 +9002,7 @@
         <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod16vvvvvvvvvvvvvvvv`17">
             <exclude/>
         </member>
-        <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod18vvvvvvvvvvvvvvvvvv`19">
+        <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod17vvvvvvvvvvvvvvvvv`18">
             <exclude/>
         </member>
         <member name="T:Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod6rrrrrv`7">
@@ -9976,9 +9114,6 @@
         <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke5vvrrr``6(``0,``1,``2@,``3@,``4@,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvrrr{``0,``1,``2,``3,``4,``5})">
             <exclude/>
         </member>
-        <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke5vvvvv``6(``0,``1,``2,``3,``4,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod5vvvvv{``0,``1,``2,``3,``4,``5})">
-            <exclude/>
-        </member>
         <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke6vvvrrr``7(``0,``1,``2,``3@,``4@,``5@,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod6vvvrrr{``0,``1,``2,``3,``4,``5,``6})">
             <exclude/>
         </member>
@@ -10006,7 +9141,7 @@
         <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke16vvvvvvvvvvvvvvvv``17(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod16vvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16})">
             <exclude/>
         </member>
-        <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke18vvvvvvvvvvvvvvvvvv``19(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod18vvvvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17,``18})">
+        <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke17vvvvvvvvvvvvvvvvv``18(``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod17vvvvvvvvvvvvvvvvv{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16,``17})">
             <exclude/>
         </member>
         <member name="M:Tekla.Structures.Internal.WrapperFunctionalityBase.Invoke6rrrrrv``7(``0@,``1@,``2@,``3@,``4@,``5,Tekla.Structures.Internal.WrapperFunctionalityBase.TargetMethod6rrrrrv{``0,``1,``2,``3,``4,``5,``6})">
@@ -10397,19 +9532,13 @@
             <summary> The EPM Modeler configuration. </summary>
         </member>
         <member name="F:Tekla.Structures.ModuleManager.ProgramConfigurationEnum.CONFIGURATION_CARBON">
-            <summary> The Carbon configuration. </summary>
+            <summary> The subscription license Carbon. </summary>
         </member>
         <member name="F:Tekla.Structures.ModuleManager.ProgramConfigurationEnum.CONFIGURATION_GRAPHITE">
-            <summary> The Graphite configuration. </summary>
+            <summary> The subscription license Graphite. </summary>
         </member>
         <member name="F:Tekla.Structures.ModuleManager.ProgramConfigurationEnum.CONFIGURATION_DIAMOND">
-            <summary> The Diamond configuration. </summary>
-        </member>
-        <member name="F:Tekla.Structures.ModuleManager.ProgramConfigurationEnum.CONFIGURATION_MEP">
-            <summary> The MEP configuration. </summary>
-        </member>
-        <member name="F:Tekla.Structures.ModuleManager.ProgramConfigurationEnum.CONFIGURATION_TRIAL">
-            <summary> The Trial Configuration. </summary>
+            <summary> The subscription license Diamond. </summary>
         </member>
         <member name="F:Tekla.Structures.ModuleManager.events">
             <summary>
@@ -10434,9 +9563,6 @@
         <member name="F:Tekla.Structures.ModuleManager.rebarModeling">
             <summary> "RM" </summary>
         </member>
-        <member name="F:Tekla.Structures.ModuleManager.cipModeling">
-            <summary> "CP" </summary>
-        </member>
         <member name="F:Tekla.Structures.ModuleManager.taskManagement">
             <summary> "TM" </summary>
         </member>
@@ -10460,9 +9586,6 @@
         </member>
         <member name="P:Tekla.Structures.ModuleManager.RebarModeling">
             <summary> Indicates whether the rebar modeling is enabled. </summary>
-        </member>
-        <member name="P:Tekla.Structures.ModuleManager.CIPModeling">
-            <summary> Indicates whether the CIP modeling is enabled. </summary>
         </member>
         <member name="P:Tekla.Structures.ModuleManager.AnalysisAndDesign">
             <summary> Indicates whether the Analysis and Design management is enabled. </summary>
@@ -11146,27 +10269,9 @@
         <member name="F:Tekla.Structures.TeklaStructuresDatabaseTypeEnum.BUILDING">
             <summary>Building Hierarchy Site</summary>
         </member>
-        <member name="F:Tekla.Structures.TeklaStructuresDatabaseTypeEnum.SPACE">
-            <summary>Building Hierarchy Space</summary>
-        </member>
         <member name="T:Tekla.Structures.TeklaStructuresFiles">
             <summary>
             The TeklaStructuresFiles class is for the paths where the attributes file will be searched for.
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresFiles.ProjectEnvVariable">
-            <summary>
-            XS_PROJECT environment variable name.
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresFiles.FirmEnvVariable">
-            <summary>
-            XS_FIRM environment variable name.
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresFiles.FixedSubDirectories">
-            <summary>
-            Fixed subfolders excluded from search.
             </summary>
         </member>
         <member name="F:Tekla.Structures.TeklaStructuresFiles.modelPath">
@@ -11177,11 +10282,6 @@
         <member name="F:Tekla.Structures.TeklaStructuresFiles.variablesHelper">
             <summary>
             The tekla structures variables
-            </summary>
-        </member>
-        <member name="F:Tekla.Structures.TeklaStructuresFiles.directoriesExcludedFromSearch">
-            <summary>
-            Fixed folders excluded from search.
             </summary>
         </member>
         <member name="M:Tekla.Structures.TeklaStructuresFiles.#ctor(System.String)">
@@ -11247,13 +10347,6 @@
             <param name="fileDirectories">The file directories.</param>
             <param name="environmentVariableName">Name of the environment variable.</param>
         </member>
-        <member name="M:Tekla.Structures.TeklaStructuresFiles.AddSubFolders(System.String,System.Collections.Generic.List{System.String})">
-            <summary>
-            Adds subfolders to search directories.
-            </summary>
-            <param name="envDirectory">The directory from environment variable.</param>
-            <param name="fileDirectories">The search directories.</param>
-        </member>
         <member name="T:Tekla.Structures.TeklaStructuresInfo">
             <summary>The TeklaStructuresInfo class provides information about Tekla Structures.</summary>
         </member>
@@ -11288,12 +10381,6 @@
         <member name="M:Tekla.Structures.TeklaStructuresInfo.GetCurrentUser">
             <summary> Returns the current Tekla Structures user. </summary>
             <returns>The current user of Tekla Structures.</returns>
-        </member>
-        <member name="M:Tekla.Structures.TeklaStructuresInfo.GetPluginsFolder">
-            <summary>
-            Returns main TS plugins folder, not extensions folder
-            </summary>
-            <returns>plugins folder</returns>
         </member>
         <member name="T:Tekla.Structures.ClashCheckOptions">
             <summary>The ClashCheckOptions class represents the clash check options.</summary>

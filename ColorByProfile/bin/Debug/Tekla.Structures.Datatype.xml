@@ -2533,37 +2533,6 @@
             <param name="destinationType">The destination type.</param>
             <returns>The given double datatype object converted to the new type.</returns>
         </member>
-        <member name="T:Tekla.Structures.Datatype.Enum`1">
-            <summary>The Enum datatype generic.</summary>
-            <typeparam name="E">The enum to handle.</typeparam>
-        </member>
-        <member name="P:Tekla.Structures.Datatype.Enum`1.Value">
-            <summary>Gets or sets the value.</summary>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.Enum`1.GetSchema">
-            <inheritdocs/>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.Enum`1.ReadXml(System.Xml.XmlReader)">
-            <inheritdocs/>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.Enum`1.WriteXml(System.Xml.XmlWriter)">
-            <inheritdocs/>
-        </member>
-        <member name="T:Tekla.Structures.Datatype.EnumConverter">
-            <summary>Type converter for <see cref="T:System.Enum"/></summary>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.EnumConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
-            <inheritdocs/>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.EnumConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
-            <inheritdocs/>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.EnumConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
-            <inheritdocs/>
-        </member>
-        <member name="M:Tekla.Structures.Datatype.EnumConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
-            <inheritdocs/>
-        </member>
         <member name="T:Tekla.Structures.Datatype.IDataType">
             <summary>
             The IDataType interface is the root interface for converting all the
